@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineer Portfolio | Future Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    
+    <nav class="navbar">
+        <div class="logo">&lt;Engineer/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="ri-menu-line"></i>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="I Engineer The Future">I Engineer The Future</h1>
+                <h2 class="typing-container">I am a <span id="typing-text"></span></h2>
+                <p class="hero-sub">Frontend • Backend • IoT • Robotics • Server</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">01. About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I don't just write code; I build systems. From low-level hardware control in robotics to high-scalable server architectures, I bridge the gap between the physical and digital worlds.</p>
+                    <p>My passion lies in creating seamless experiences where <span class="highlight">hardware meets software</span>. Whether it's optimizing a React frontend or soldering a microcontroller for an IoT mesh network, I drive innovation through engineering.</p>
+                </div>
+                <div class="about-visual">
+                    <!-- Placeholder for abstract tech visual or profile image -->
+                    <div class="tech-box">
+                        <div class="circuit-line"></div>
+                        <div class="circuit-node"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">02. Technical Arsenal</h2>
+            <div class="skills-grid">
+                <!-- Filled via JS -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">03. Selected Works</h2>
+            <div class="projects-grid">
+                <!-- Filled via JS -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">04. Initialize Connection</h2>
+            <div class="contact-container">
+                <p>Have a project that involves complex systems? Let's engineer a solution.</p>
+                <a href="mailto:engineer@example.com" class="btn primary big-btn">Say Hello</a>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="ri-github-line"></i></a>
+                    <a href="#" target="_blank"><i class="ri-linkedin-line"></i></a>
+                    <a href="#" target="_blank"><i class="ri-twitter-x-line"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Engineered by Me &copy; 2026</p>
+    </footer>
+
+    <script src="js/bg-animation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
